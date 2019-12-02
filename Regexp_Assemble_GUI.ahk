@@ -3,7 +3,7 @@
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 
-Gui, Add, Edit, Vinputtext x12 y10 w450 h320 , ここに改行区切りのテキストを入力してください
+Gui, Add, Edit, Vinputtext x12 y10 w450 h320
 Gui, Add, Button, gExec x362 y340 w100 h30 , OK
 ; Generated using SmartGUI Creator 4.0
 Gui, Show, x127 y87 h379 w479, テキスト入力ウィンドウ
