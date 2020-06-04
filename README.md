@@ -1,7 +1,7 @@
 # Regexp_Assemble 
 
 ## Screen image
-![image](https://user-images.githubusercontent.com/10069642/83729730-04391d80-a683-11ea-854a-1a58992264bc.png)
+![image](https://user-images.githubusercontent.com/10069642/83731205-15832980-a685-11ea-98f5-857caf14b11d.png)
 
 ## Usage
 1. Run Regexp_Assemble_GUI.ahk.
