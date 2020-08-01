@@ -14,5 +14,5 @@
 
 ## Requirements
 - Windows
-- Perl ( 5.26 or avobe)
+- Perl5
 - AHK
