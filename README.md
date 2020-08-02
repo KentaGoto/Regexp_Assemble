@@ -1,5 +1,8 @@
 # Regexp_Assemble 
 
+## Description  
+Convert each newline phrase into a single line regular expression.  
+
 ## Screen image
 **Example:**  
 ![image](https://user-images.githubusercontent.com/10069642/83731205-15832980-a685-11ea-98f5-857caf14b11d.png)  
