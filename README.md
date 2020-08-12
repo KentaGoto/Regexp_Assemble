@@ -9,7 +9,7 @@ Write the phrase for which you want to generate a regex.
 ![image](https://user-images.githubusercontent.com/10069642/83731205-15832980-a685-11ea-98f5-857caf14b11d.png)  
 
 **Result:**  
-An optimized regular expression is generated.  
+An optimized regex is generated.  
 ![image](https://user-images.githubusercontent.com/10069642/83731383-6430c380-a685-11ea-8eff-e14046f115f2.png)  
 
 ## Usage
