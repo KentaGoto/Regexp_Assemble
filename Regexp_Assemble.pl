@@ -11,12 +11,11 @@ binmode STDIN,  ':encoding(cp932)';
 binmode STDOUT, ':encoding(cp932)';
 binmode STDERR, ':encoding(cp932)';
 
-##############################################################
-### 正規表現を生成する。
-### 生成された正規表現はクリップボードにコピーされる。
-##############################################################
+#################################################################
+### The generated regular expression is copied to the clipboard.
+#################################################################
 
-# クリップボードから対象文字列を得る
+# Get the target string from the clipboard
 my $text_tmp = Win32::Clipboard();
 my $text_tmp_decode_paste = $text_tmp->GetAs(CF_UNICODETEXT);
 my $text  = decode('UTF16-LE', $text_tmp_decode_paste);
@@ -31,7 +30,7 @@ for ( @text_list ) {
 
 my $regex = $builder->re;
 
-# 各種エディターでも使えるように正規表現を整形（Perlで使うならいらない）
+# Formatted regular expressions for use in various text editors (not necessary if you're using Perl)
 $regex =~ s{^\(\?\^u?:}{};
 $regex =~ s{\)$}{};
 
