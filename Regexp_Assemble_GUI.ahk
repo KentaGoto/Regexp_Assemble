@@ -6,16 +6,16 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 Gui, Add, Edit, Vinputtext x12 y10 w450 h320
 Gui, Add, Button, gExec x362 y340 w100 h30 , OK
 ; Generated using SmartGUI Creator 4.0
-Gui, Show, x127 y87 h379 w479, テキスト入力ウィンドウ
+Gui, Show, x127 y87 h379 w479, Text entry window
 Return
 
 ;;; Main
 Exec:
 
-; 入力されたテキストを変数に代入
+; Assign the text entered to a variable
 Gui, Submit, NoHide
 
-; 変数の値をクリップボードにコピー
+; Copy the value of the variable to the clipboard
 Clipboard = %inputtext%
 ClipWait,1
 ;MsgBox, %Clipboard%
