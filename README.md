@@ -21,3 +21,6 @@ An optimized regex is generated.
 - Windows
 - Perl5
 - AHK
+
+## License
+MIT
