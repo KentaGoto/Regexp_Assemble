@@ -24,3 +24,6 @@ An optimized regex is generated.
 
 ## License
 MIT
+
+## Author  
+Kenta Goto
