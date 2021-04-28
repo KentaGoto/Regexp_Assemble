@@ -30,7 +30,8 @@ for ( @text_list ) {
 
 my $regex = $builder->re;
 
-# Formatted regular expressions for use in various text editors (not necessary if you're using Perl)
+# Formatted regular expressions for use in various 
+# text editors (not necessary if you're using Perl)
 $regex =~ s{^\(\?\^u?:}{};
 $regex =~ s{\)$}{};
 
