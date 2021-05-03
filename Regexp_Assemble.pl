@@ -18,7 +18,7 @@ binmode STDERR, ':encoding(cp932)';
 # Get the target string from the clipboard
 my $text_tmp = Win32::Clipboard();
 my $text_tmp_decode_paste = $text_tmp->GetAs(CF_UNICODETEXT);
-my $text  = decode('UTF16-LE', $text_tmp_decode_paste);
+my $text = decode('UTF16-LE', $text_tmp_decode_paste);
 my @text_list = split(/\n/, $text);
 
 my $builder = Regexp::Assemble::Compressed->new;
